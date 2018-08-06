@@ -334,7 +334,7 @@ Test(fpga, rtds2gpu_rtt_gpu, .description = "Rtds2Gpu RTT via GPU")
 //		logger->info("Press enter to cancel");
 //		std::cin >> dummy;
 
-		while(1) {
+		for(int i = 0; i < 10; i++) {
 			sleep(1);
 //			logger->debug("Current sequence number: {}", doorbellInCpu->seq_nr);
 			logger->debug("Still running");

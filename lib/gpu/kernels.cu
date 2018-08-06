@@ -9,7 +9,6 @@
 namespace villas {
 namespace gpu {
 
-
 __global__ void
 kernel_mailbox(volatile uint32_t *mailbox, volatile uint32_t* counter)
 {
